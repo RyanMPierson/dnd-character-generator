@@ -1,0 +1,181 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 20px;
+}
+
+h1 {
+    text-align: center;
+    color: #333;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    background: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    margin: 10px 0 5px;
+    font-weight: bold;
+}
+
+select {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+button {
+    margin-top: 20px;
+    padding: 10px;
+    background-color: #28a745;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #218838;
+}
+
+.result {
+    margin-top: 20px;
+    padding: 10px;
+    background-color: #e2e3e5;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.character-sheet {
+    background: #fffbe6;
+    border: 2px solid #bfa76f;
+    border-radius: 10px;
+    max-width: 500px;
+    margin: 2em auto;
+    padding: 2em;
+    font-family: 'Georgia', serif;
+    box-shadow: 0 4px 16px rgba(0,0,0,0.08);
+}
+.sheet-header {
+    border-bottom: 2px solid #bfa76f;
+    margin-bottom: 1em;
+    padding-bottom: 1em;
+}
+.sheet-name {
+    font-size: 1.5em;
+    font-weight: bold;
+    margin-bottom: 0.5em;
+}
+.sheet-row {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1.5em;
+    font-size: 1.1em;
+}
+.label {
+    font-weight: bold;
+    color: #7c5c1d;
+}
+.value {
+    color: #2d1c00;
+}
+.sheet-section {
+    margin-top: 1.5em;
+}
+.section-title {
+    display: block;
+    font-size: 1.2em;
+    font-weight: bold;
+    color: #7c5c1d;
+    margin-bottom: 0.5em;
+    border-bottom: 1px solid #bfa76f;
+    padding-bottom: 0.2em;
+}
+.stats-row {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1em;
+    margin-top: 0.5em;
+    justify-content: center;
+}
+.stat-block {
+    background: #f5e6c0;
+    border: 1px solid #bfa76f;
+    border-radius: 6px;
+    padding: 0.5em 0.7em;
+    text-align: center;
+    min-width: 48px;
+    flex: 0 1 60px;
+}
+.stat-label {
+    display: block;
+    font-weight: bold;
+    color: #7c5c1d;
+    font-size: 1em;
+}
+.stat-value {
+    display: block;
+    font-size: 1.3em;
+    color: #2d1c00;
+}
+.backstory {
+    background: #f9f6ef;
+    border-left: 4px solid #bfa76f;
+    padding: 1em;
+    font-style: italic;
+    color: #3d2b00;
+    margin-top: 0.5em;
+    border-radius: 4px;
+}
+.skill {
+    background: #e8d7b9;
+    border: 1px solid #bfa76f;
+    border-radius: 4px;
+    padding: 0.3em 0.8em;
+    margin: 0.2em 0.4em 0.2em 0;
+    font-size: 1em;
+    color: #4d3200;
+    display: inline-block;
+}
+.equipment-list {
+    list-style: disc inside;
+    margin: 0.5em 0 0 1em;
+    padding: 0;
+    color: #2d1c00;
+    font-size: 1em;
+}
+.equipment-list li {
+    margin-bottom: 0.2em;
+}
+.spells-list {
+    list-style: disc inside;
+    margin: 0.5em 0 0 1em;
+    padding: 0;
+    color: #2d1c00;
+    font-size: 1em;
+}
+.spells-list li {
+    margin-bottom: 0.2em;
+}
+.spell-name {
+    font-weight: bold;
+    color: #4d3200;
+}
+.spell-desc {
+    font-size: 0.95em;
+    color: #5a4a2a;
+    margin-left: 0.5em;
+    margin-bottom: 0.3em;
+    font-style: italic;
+}
